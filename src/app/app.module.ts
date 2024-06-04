@@ -10,7 +10,8 @@ import { AppComponent } from './app.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    //MapsModule / se va a carga como lazyloading
   ],
   providers: [],
   bootstrap: [AppComponent]
